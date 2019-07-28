@@ -1,5 +1,11 @@
 # vue-croppa-upload
 
+[Vue Croppa](https://zhanziyang.github.io/vue-croppa/#/) - A simple straightforward customizable image cropper
+
+`npm install --save vue-croppa`  
+
+## install
+
 `$ vue create vue-croppa-upload`   
 merge   
 `$ cd vue-croppa-upload`    
