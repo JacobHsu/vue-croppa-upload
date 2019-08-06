@@ -3,8 +3,9 @@
     <h1>{{ msg }}</h1>
     <croppa v-model="croppa"
             placeholder="Select an image or drag here"
-            :placeholder-font-size="14"
-    ></croppa>
+            :placeholder-font-size="14">
+            <!-- <img slot="placeholder" src="../assets/upload-solid.svg"> -->
+    </croppa>
   </div>
 </template>
 
@@ -56,5 +57,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.croppa-container {
+  border: 1px solid grey;
 }
 </style>

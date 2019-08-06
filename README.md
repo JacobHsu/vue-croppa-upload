@@ -16,6 +16,27 @@ merge
 
 `$ npm run deploy`
 
+##　Quick Start
+
+[quick-start](https://zhanziyang.github.io/vue-croppa/#/quick-start)  
+
+index.html
+```html
+<link href="https://unpkg.com/vue-croppa/dist/vue-croppa.min.css" rel="stylesheet" type="text/css">
+```
+
+main.js
+```js
+// If your build tool supports css module
+import 'vue-croppa/dist/vue-croppa.css';
+```
+
+
+## Docs
+
+[Appearance](https://zhanziyang.github.io/vue-croppa/#/customization)  
+[Image Placeholder](https://zhanziyang.github.io/vue-croppa/#/demos)  
+
 ## Project setup
 ```
 npm install
