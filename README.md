@@ -16,6 +16,10 @@ merge
 
 `$ npm run deploy`
 
+## study
+
+[cropper.vue](https://github.com/zhanziyang/vue-croppa/blob/master/src/cropper.vue)  
+
 ##　Quick Start
 
 [quick-start](https://zhanziyang.github.io/vue-croppa/#/quick-start)  
@@ -35,7 +39,19 @@ import 'vue-croppa/dist/vue-croppa.css';
 ## Docs
 
 [Appearance](https://zhanziyang.github.io/vue-croppa/#/customization)  
-[Image Placeholder](https://zhanziyang.github.io/vue-croppa/#/demos)  
+[Image Placeholder](https://zhanziyang.github.io/vue-croppa/#/demos) 
+
+
+[Customization](https://zhanziyang.github.io/vue-croppa/#/customization)
+Use the  `initial` slot. It's more flexible than the first method.  
+NOTE: If the image resouce is not host on your site (under diffrent domain), you need to set  `crossOrigin="anonymous"`  
+codepen [Vue Croppa Initial Image 1](https://codepen.io/zhanziyang/pen/mMOKXo)     
+codepen [Vue Croppa remove file](https://codepen.io/zhanziyang/pen/RZKEbr) 
+
+## Notes
+
+前端canvas把url轉為base64，存在跨域問題
+[canvas 圖片跨域（二）](https://blog.csdn.net/qq_37837134/article/details/80215617)
 
 ## Project setup
 ```
